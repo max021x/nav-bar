@@ -69,7 +69,11 @@ nav ul li a:hover{
 @media (max-width:360px){
        nav ul li a{
         white-space: nowrap;
+<<<<<<< HEAD
         padding: 10px 10px ;
+=======
+        padding: 4% 4% ;
+>>>>>>> 166acec4551089234639d3f51fd34f548fb2f10e
        }
        nav ul li:nth-child(4){
         padding-right: 25px;
