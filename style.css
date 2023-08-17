@@ -54,7 +54,30 @@ nav ul li a:hover{
         display: none;
     }
     nav .logo{
+      font-size: 1.4rem;
       position: relative;  
       left: -10%;
     }
+    nav ul li:nth-child(4){
+        display: block;
+        margin-right: 0;
+        position: relative;
+        right: -40px;
+        
+    }
+}
+@media (max-width:360px){
+       nav ul li a{
+        white-space: nowrap;
+        padding: 4% 4% ;
+       }
+       nav ul li:nth-child(4){
+        padding-right: 25px;
+       }
+       nav .logo{
+        padding-left: 10px
+       }
+       @media (max-width:290){
+
+       }
 }
